@@ -10,5 +10,3 @@ cd $ps
 copy . .
 
 entrypoint ["java","-jar","catalogueservice.jar"]
-
-expose 8080
